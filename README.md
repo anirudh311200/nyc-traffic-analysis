@@ -67,8 +67,14 @@ Weekend traffic shows unusual risk at **midnight hours (00:00)** — a sharp con
 
 ---
 
-## 📁 Dataset Source
+## 📑 Dataset Source
 Dataset Source: Maven Analytics (Training dataset)
+
+---
+
+## 💾 How to View the File
+The analysis lives in `NYC_Collisions_Analysis.xlsx`.  
+Download the file and open in Excel (desktop recommended).
 
 ---
 
