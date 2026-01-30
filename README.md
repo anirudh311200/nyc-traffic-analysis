@@ -1,88 +1,81 @@
+# 📊 NYC Traffic Collisions Analysis (2021–2023) 🚦
+
 ## 📌 Overview
-This project analyzes NYC traffic collision data (2021–2023) using Excel to uncover patterns in crash volume, seasonality, dangerous time windows, and contributing risk factors.  
-The goal: provide data-driven insights that support smarter traffic-safety decisions.
+This project delivers a **comprehensive analysis of New York City traffic collisions from 2021 to 2023** using Microsoft Excel.  
+The aim: uncover patterns in collision volume, temporal trends, high-risk periods, and contributing factors to inform **smarter traffic-safety decisions**.  
+
+By combining pivot tables, heatmaps, and calculated metrics, this project transforms raw collision data into actionable insights that can guide urban planners, policymakers, and public safety initiatives.  
 
 ---
 
-## 🎯 Key Findings
+## 🎯 Key Insights & Findings
 
-### 📅 Collisions Peak in Spring/Early Summer
-May–June show the highest crash counts, with totals declining into the winter months.
-
-### 🚗 Weekday Rush-Hour Danger
-Collisions cluster heavily between **3–6 PM on weekdays**, especially **Fridays**, which show the most intense volume.
-
-### ⚠️ Late-Night Weekend Risk
-Weekend traffic shows unusual risk at **midnight hours (00:00)** — a sharp contrast from weekday patterns.
-
-### ❗ High-Risk Driver Behavior
-- **Driver Inattention/Distraction** causes the most collisions overall.
-- **Failure to Yield Right-of-Way** produces the **highest share of injury/fatal collisions.**
+### 📅 Seasonal Collision Trends
+**Observation:** Collisions peak in late spring and early summer (May–June), then decline into winter months.  
+**Interpretation:** Higher spring/summer collisions may correspond to increased traffic volumes, warmer weather, and longer daylight hours. Seasonal tourism and construction activity could also contribute to the uptick in incidents.  
+**Visual:**  
+![Line Chart of Collisions by Month](visuals/Objective1_LineChart.png)  
+*Seasonal trends highlight critical periods for traffic-safety campaigns.*
 
 ---
 
-## 🧩 Objective 1 – Monthly Seasonality
-- **Method:** Pivot table by Month-Year  
-- **Key takeaway:** Collisions peak in late spring and summer months  
-- **Visual:**
-![Line Chart of Collisions by Month](visuals/Objective1_LineChart.png)
-*Shows seasonal collision trends (2021–2023), peaks in summer months.*
+### 🚗 Weekday Rush-Hour Risks
+**Observation:** Collisions cluster heavily between **3–6 PM on weekdays**, with **Fridays** showing the highest concentration.  
+**Interpretation:** Afternoon/evening commuter traffic, combined with driver fatigue and congestion, creates high-risk windows. Friday spikes may indicate end-of-week stress, aggressive driving, or heavier urban traffic patterns.  
+**Visual:**  
+![Heatmap of Collisions by Weekday and Hour](visuals/Objective2_Heatmap.png)  
+*Rush-hour hotspots pinpoint priority areas for targeted interventions.*
 
 ---
 
-## 🧩 Objective 2 – Heatmap
-- **Dimensions:** Weekday × Hour  
-- **Key pattern:** Weekday rush-hour collisions spike between 3–6 PM, Fridays are most dangerous  
-- **Visual:**
-![Heatmap of Collisions by Weekday and Hour](visuals/Objective2_Heatmap.png)
-*Highlights weekday rush hour collision hotspots.*
+### ⚠️ Late-Night Weekend Vulnerability
+**Observation:** A notable increase in collisions occurs around **midnight on weekends**, diverging from typical weekday patterns.  
+**Interpretation:** Likely influenced by nightlife, alcohol consumption, and reduced visibility. Strategic enforcement and public-awareness campaigns could mitigate risks during these periods.  
+**Visual:**  
+![Late-Night Weekend Collision Trends](visuals/Objective2_Heatmap.png)  
+*Identifies periods where enhanced vigilance and preventive measures are critical.*
 
 ---
 
-## 🧩 Objective 3 – Risk by Contributing Factor
-- **Method:** Pivot table + extra calculated fields  
-- **Calculation:** % of collisions with injury/fatality  
-- **Visual:**
-![Data Bars for Contributing Factors](visuals/Objective3_DataBars.png)
-*Shows top 10 contributing factors and % of dangerous collisions.*
+### ❗ Contributing Factors & High-Risk Behaviors
+**Observation:**  
+- **Driver Inattention/Distraction** accounts for the largest share of total collisions.  
+- **Failure to Yield Right-of-Way** results in the highest percentage of injury/fatal collisions.  
+
+**Interpretation:** These insights emphasize the importance of **behavioral interventions**, targeted traffic enforcement, and public safety education to reduce high-severity incidents.  
+
+**Visual:**  
+![Data Bars for Contributing Factors](visuals/Objective3_DataBars.png)  
+*Highlights top contributors to collisions and relative severity.*
 
 ---
 
 ## 🛠️ Skills Demonstrated
-- Pivot tables  
-- Conditional formatting & heatmaps  
-- Trend line visualizations  
-- Custom calculated fields (% dangerous collisions)  
-- Data cleaning & preprocessing  
-- Insight storytelling  
-- Git, GitHub & Git LFS  
+- Advanced **pivot tables** for multidimensional analysis  
+- **Conditional formatting** & heatmaps to visualize complex patterns  
+- **Trend line visualizations** and custom calculated fields (% of dangerous collisions)  
+- Data cleaning, preprocessing, and quality checks  
+- Insight storytelling for non-technical stakeholders  
+- Git & GitHub version control with LFS  
 
 ---
 
-## 📂 Tools Used
-- Excel  
-- Git & GitHub  
-- Git LFS  
-- Maven Analytics dataset  
+## 📂 Tools & Dataset
+- **Tools Used:** Microsoft Excel, Git & GitHub, Git LFS  
+- **Dataset Source:** Maven Analytics (Training dataset)  
+- **File:** `NYC_Collisions_Analysis.xlsx` (desktop Excel recommended)
 
 ---
 
-## 📑 Dataset Source
-Dataset Source: Maven Analytics (Training dataset)
+## 🖼️ Full Visuals Gallery
+All project visuals—including line charts, heatmaps, and contributing factor analyses—are stored in the [`visuals/`](visuals/) folder.  
+This ensures a complete, high-quality reference set for review and reproducibility.  
 
 ---
 
-## 💾 How to View the File
-The analysis lives in `NYC_Collisions_Analysis.xlsx`.  
-Download the file and open in Excel (desktop recommended).
+## 🏁 Final Takeaway
+This project demonstrates a **structured analytics workflow** using Excel—from raw data to actionable insights.  
+It shows how well-designed pivot tables, visualizations, and contextual analysis can **turn complex traffic data into a clear narrative** for decision-making, enforcement planning, and public safety initiatives.  
+Even with a modest dataset, Excel proves to be a **powerful tool for professional-grade analysis**.
 
 ---
-
-## 🚀 Next Steps
-This was my **first hands-on analytics project in Excel**.  
-Next, I’ll be building projects in:  
-- **SQL:** data extraction, joins, aggregations  
-- **Power BI:** interactive dashboards  
-- **Tableau:** visual storytelling & analytics  
-
-The goal: continue expanding my analytics skill set while building a portfolio of **practical, real-world projects**.  
