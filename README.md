@@ -1,77 +1,75 @@
-# 📊 NYC Traffic Collision Analysis (2021–2023) | Excel Project
-
 ## 📌 Overview
-This project analyzes **New York City traffic collision data (2021–2023)** using Excel to uncover patterns in crash volume, seasonal trends, high-risk time windows, and contributing factors.  
-
-The objective: **derive actionable insights** to support smarter, data-driven traffic-safety decisions across NYC.  
+This project analyzes **NYC traffic collision data (2021–2023)** using Excel to uncover patterns in crash volume, seasonality, high-risk time windows, and contributing factors.  
+The primary goal: provide **actionable, data-driven insights** to support smarter traffic-safety decisions.
 
 ---
 
 ## 🎯 Key Findings
 
-### 📅 Seasonal Collision Trends
-- Collisions **peak in late spring and early summer (May–June)**.  
-- Totals **gradually decline toward winter months**, indicating seasonal impact on traffic safety.  
-
-**Interpretation:** Safety interventions and public awareness campaigns may be particularly effective if timed ahead of high-risk months.  
+### 📅 Collisions Peak in Spring/Early Summer
+**Observation:** Crash counts are highest in **May–June**, with a steady decline into the winter months.  
+**Interpretation:** This aligns with seasonal behavioral patterns—longer daylight hours and increased outdoor activity contribute to more vehicles on the road, elevating collision risk. Additionally, these months often coincide with **end-of-school-year travel and early summer commuting**, further driving traffic volume.
 
 **Visual:**
-![Line Chart of Collisions by Month](visuals/Objective1_LineChart.png)  
-*Line chart showing collision trends across 2021–2023, highlighting seasonal peaks.*
+![Line Chart of Collisions by Month](visuals/Objective1_LineChart.png)
+*Displays seasonal collision trends (2021–2023), highlighting peaks during late spring and early summer.*
 
 ---
 
-### 🚗 Weekday Rush-Hour Risk
-- **High concentration of collisions between 3–6 PM on weekdays**, with **Fridays** showing the most intense traffic incidents.  
-
-**Interpretation:** Rush-hour congestion, driver fatigue, and commuting patterns contribute to elevated risk. Targeted enforcement or educational campaigns during these hours could mitigate incidents.  
+### 🚗 Weekday Rush-Hour Danger
+**Observation:** Collisions cluster heavily between **3–6 PM on weekdays**, with **Fridays showing the highest volume**.  
+**Interpretation:** This likely reflects **commuter traffic patterns**, where congestion and driver fatigue accumulate toward the end of the workweek. High-pressure time constraints during peak hours may exacerbate **risk-taking and distraction**, increasing accident likelihood.
 
 **Visual:**
-![Heatmap of Collisions by Weekday and Hour](visuals/Objective2_Heatmap.png)  
-*Heatmap showing frequency of collisions by day of week and hour, highlighting weekday rush-hour spikes.*
+![Heatmap of Collisions by Weekday and Hour](visuals/Objective2_Heatmap.png)
+*Illustrates the concentration of collisions during weekday rush hours, emphasizing Friday as the riskiest day.*
 
 ---
 
 ### ⚠️ Late-Night Weekend Risk
-- Collisions spike unexpectedly around **midnight on weekends**, contrasting with weekday patterns.  
+**Observation:** Weekend collisions spike at **midnight (00:00)**, contrasting sharply with weekday patterns.  
+**Interpretation:** Late-night weekend incidents are likely influenced by **alcohol consumption, recreational travel, and reduced traffic enforcement**. Despite lower traffic volume at night, risk per vehicle is elevated due to behavioral and environmental factors.
 
-**Interpretation:** Nighttime weekend activity, potentially alcohol-related or reduced visibility, creates elevated danger. Insights could inform nighttime patrol planning or public safety campaigns.  
+**Visual:**
+![Weekend Risk Heatmap](visuals/Objective2_Heatmap.png)
+*Highlights unusual late-night collision risk during weekends.*
 
 ---
 
 ### ❗ High-Risk Driver Behavior
-- **Driver Inattention/Distraction** causes the most collisions overall.  
-- **Failure to Yield Right-of-Way** has the **highest proportion of injury/fatal collisions**.  
+**Observation:**  
+- **Driver Inattention/Distraction** accounts for the largest proportion of overall collisions.  
+- **Failure to Yield Right-of-Way** leads to the **highest share of injury or fatal collisions**.  
 
-**Interpretation:** Targeted safety interventions focusing on the top risk factors could maximize reductions in serious incidents.  
+**Interpretation:** While inattention contributes most to total incidents, **high-consequence collisions** tend to involve specific traffic violations like failing to yield. Targeted interventions and public-awareness campaigns can focus on these behaviors to **reduce severe outcomes**.
 
 **Visual:**
-![Data Bars for Contributing Factors](visuals/Objective3_DataBars.png)  
-*Bar chart ranking top contributing factors, highlighting percentage of collisions with injuries/fatalities.*
+![Data Bars for Contributing Factors](visuals/Objective3_DataBars.png)
+*Shows top 10 contributing factors and the percentage of collisions resulting in injury or fatality.*
 
 ---
 
 ## 🛠️ Skills Demonstrated
-- Pivot tables for dynamic data summarization  
-- Conditional formatting & heatmaps for visual pattern recognition  
-- Trend line visualizations to highlight temporal patterns  
-- Custom calculated fields to quantify risk (% dangerous collisions)  
-- Data cleaning & preprocessing for accurate analytics  
-- Insight storytelling and executive-level reporting  
-- Version control using Git, GitHub & Git LFS  
+- **Pivot Tables & Conditional Formatting** – Efficiently summarized trends and patterns.  
+- **Heatmaps & Trend Visualizations** – Highlighted temporal risk patterns and hotspots.  
+- **Custom Calculated Fields** – Computed % of dangerous collisions per contributing factor.  
+- **Data Cleaning & Preprocessing** – Ensured analysis accuracy and consistency.  
+- **Insight Storytelling** – Translated findings into actionable recommendations.  
+- **Version Control with Git & GitHub** – Maintained project history and reproducibility.  
 
 ---
 
 ## 📂 Tools Used
-- Microsoft Excel (desktop)  
-- Git & GitHub  
-- Git LFS  
-- Maven Analytics NYC Collisions dataset  
+- Microsoft **Excel**  
+- **Git & GitHub**  
+- **Git LFS** for handling visuals  
+- Maven Analytics dataset  
 
 ---
 
 ## 📑 Dataset Source
-Dataset Source: Maven Analytics (Training dataset)
+- **Maven Analytics Training Dataset**  
+- Covers NYC traffic collisions from 2021 to 2023
 
 ---
 
@@ -79,20 +77,21 @@ Dataset Source: Maven Analytics (Training dataset)
 The full analysis is contained in:  
 `NYC_Collisions_Analysis.xlsx`  
 
-**Note:** Open in **Excel (desktop recommended)** to explore pivot tables, calculated fields, and visualizations.  
+> **Open in Excel (desktop recommended)** to explore pivot tables, calculated fields, and visualizations.
 
 ---
 
 ## 🖼️ Full Visuals Gallery
-For a complete view of all Excel visuals, including pivot charts, heatmaps, and calculated tables, please refer to the `visuals/` folder in this repository.  
+For a complete view of all Excel visuals, including pivot charts, heatmaps, and calculated tables, refer to the `visuals/` folder in this repository.  
 
-**Note:** Each file is clearly labeled for **easy navigation and reference**.
+> Each file is clearly labeled for **easy navigation and reference**.
 
 ---
 
 ## 🏁 Final Takeaway
-This project demonstrates a **professional-level exploratory analysis workflow** in Excel.  
+This project demonstrates a **comprehensive Excel-based analytics workflow**—from data cleaning and transformation to insight extraction and visualization.  
 
-It highlights how structured, data-driven investigation of traffic collisions can reveal **temporal patterns, high-risk behaviors, and actionable insights** for public safety.  
+It showcases how even **desktop-level analytics** can produce actionable, real-world insights into traffic safety, guiding decision-making and policy evaluation.
 
-By leveraging pivot tables, calculated fields, and effective visualizations, this analysis transforms raw collision data into **strategic knowledge**, showcasing the impact of **careful, structured analytics** in real-world decision-making.
+---
+
